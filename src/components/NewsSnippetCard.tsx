@@ -54,15 +54,13 @@ export const NewsSnippetCard: React.FC<Props> = ({ data }) => {
 
   useEffect(() => {
     if (selectedSortOption.toLowerCase() === "date") {
-      const sorted = [...duplicates].sort(
-        (a, b) => dayjs(a.DP).valueOf() - dayjs(b.DP).valueOf()
+      setDuplicates((prev) =>
+        [...prev].sort((a, b) => dayjs(a.DP).valueOf() - dayjs(b.DP).valueOf())
       );
-      setDuplicates(sorted);
     } else if (selectedSortOption.toLowerCase() === "reach") {
-      const sorted = [...duplicates].sort((a, b) => a.REACH - b.REACH);
-      setDuplicates(sorted);
+      setDuplicates((prev) => [...prev].sort((a, b) => a.REACH - b.REACH));
     } else {
-      setDuplicates([...duplicates]);
+      setDuplicates((prev) => [...prev]);
     }
   }, [selectedSortOption]);
 
