@@ -1,0 +1,115 @@
+.card {
+  background: #0e0e10;
+  max-width: 814px;
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.meta {
+  display: flex;
+  font-size: 11px;
+  color: #bbb;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftMeta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+
+.rightMeta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 17px;
+  color: #4da6ff;
+  display: block;
+  margin-top: -4px;
+  margin-bottom: 0px;
+}
+
+.source {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 13px;
+  color: #ccc;
+  margin-top: -2px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+.link {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4da6ff;
+  display: block;
+  margin: 8px 0;
+}
+
+.content {
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+.highlighted {
+  background: #1389ff;
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+
+.tags {
+  margin-top: 0px;
+  display: block;
+  margin-bottom: 10px;
+  padding: 4px 0px;
+}
+
+.tagSpan {
+  display: inline-block;
+  border-width: 1px;
+  border-style: solid;
+  color: #bbb;
+  border-color: #bbb;
+  border-radius: 16px;
+  margin-right: 8px;
+  padding: 4px 8px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 40px;
+  margin-bottom: 12px;
+}
+
+.duplicates {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+.duplicatesHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions {
+  margin-top: 2px;
+  display: block;
+  width: 100%;
+}

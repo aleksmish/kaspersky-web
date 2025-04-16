@@ -1,0 +1,56 @@
+.card {
+  padding: 8px 14px;
+  border: 1px solid #1389ff;
+  border-radius: 8px;
+  margin-bottom: 1px;
+}
+
+.meta {
+  display: flex;
+  font-size: 11px;
+  color: #bbb;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -2.4px;
+  margin-bottom: 0px;
+}
+
+.leftMeta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+
+.rightMeta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 17px;
+  color: #4da6ff;
+  display: block;
+  margin-top: -4px;
+  margin-bottom: 0px;
+}
+
+.source {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 13px;
+  color: #ccc;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+
+.link {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4da6ff;
+  display: block;
+}
